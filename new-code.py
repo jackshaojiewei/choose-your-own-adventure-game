@@ -280,7 +280,190 @@ def page_23():
         print_slow("Invalid choice. Please try again.")
         page_23()
 
-# Add more pages (page_24 to page_34) as needed to expand the story.
+def page_24():
+    print_slow("You call for help, and your voice echoes through the cave.")
+    print_slow("Suddenly, a group of glowing creatures appears.")
+    print_slow("1. Ask them for help.")
+    print_slow("2. Hide and observe them.")
+    choice = input("What do you do? (1 or 2): ")
+    if choice == "1":
+        print_slow("The creatures lead you to a hidden exit. You escape the cave!")
+        print_slow("THE END.")
+        play_again()
+    elif choice == "2":
+        print_slow("The creatures notice you and surround you. They seem friendly and guide you out.")
+        print_slow("THE END.")
+        play_again()
+    else:
+        print_slow("Invalid choice. Please try again.")
+        page_24()
+
+def page_25():
+    print_slow("You peek through the window and see the old woman chanting over a cauldron.")
+    print_slow("1. Knock on the door and confront her.")
+    print_slow("2. Sneak away quietly.")
+    choice = input("What do you do? (1 or 2): ")
+    if choice == "1":
+        print_slow("The old woman turns around and smiles. She invites you in and offers you a potion.")
+        print_slow("You drink it and gain magical powers!")
+        print_slow("THE END.")
+        play_again()
+    elif choice == "2":
+        print_slow("You sneak away but trip over a branch. The old woman hears you and curses you.")
+        print_slow("GAME OVER.")
+        play_again()
+    else:
+        print_slow("Invalid choice. Please try again.")
+        page_25()
+
+def page_26():
+    print_slow("You smash the mirror, and the glass shatters into a thousand pieces.")
+    print_slow("The shards swirl around you, forming a portal.")
+    print_slow("1. Step through the portal.")
+    print_slow("2. Stay where you are.")
+    choice = input("What do you do? (1 or 2): ")
+    if choice == "1":
+        print_slow("The portal takes you to a mysterious island. You begin a new adventure.")
+        print_slow("THE END.")
+        play_again()
+    elif choice == "2":
+        print_slow("The portal closes, and you are trapped in the hallway forever.")
+        print_slow("GAME OVER.")
+        play_again()
+    else:
+        print_slow("Invalid choice. Please try again.")
+        page_26()
+
+def page_27():
+    print_slow("You investigate the chest and find a hidden mechanism.")
+    print_slow("1. Activate the mechanism.")
+    print_slow("2. Leave it alone.")
+    choice = input("What do you do? (1 or 2): ")
+    if choice == "1":
+        print_slow("The mechanism opens a secret passage. You find a map to a hidden treasure!")
+        print_slow("THE END.")
+        play_again()
+    elif choice == "2":
+        print_slow("You leave the chest and continue exploring, but the cave collapses behind you.")
+        print_slow("GAME OVER.")
+        play_again()
+    else:
+        print_slow("Invalid choice. Please try again.")
+        page_27()
+
+def page_28():
+    print_slow("You ask the old woman who she is, and she reveals herself as a powerful sorceress.")
+    print_slow("1. Ask her to teach you magic.")
+    print_slow("2. Politely decline and leave.")
+    choice = input("What do you do? (1 or 2): ")
+    if choice == "1":
+        print_slow("She agrees and trains you in the magical arts. You become a powerful wizard!")
+        print_slow("THE END.")
+        play_again()
+    elif choice == "2":
+        print_slow("You leave the cabin, but the forest seems darker and more dangerous.")
+        print_slow("GAME OVER.")
+        play_again()
+    else:
+        print_slow("Invalid choice. Please try again.")
+        page_28()
+
+def page_29():
+    print_slow("You rest under a tree and fall asleep.")
+    print_slow("When you wake up, you find yourself back in the original room.")
+    print_slow("1. Go through the red door.")
+    print_slow("2. Go through the blue door.")
+    choice = input("What do you do? (1 or 2): ")
+    if choice == "1":
+        page_2()
+    elif choice == "2":
+        page_3()
+    else:
+        print_slow("Invalid choice. Please try again.")
+        page_29()
+
+def page_30():
+    print_slow("You scream for help, and your voice echoes through the void.")
+    print_slow("A shadowy figure appears and offers to guide you out.")
+    print_slow("1. Accept their help.")
+    print_slow("2. Refuse and try to find your own way.")
+    choice = input("What do you do? (1 or 2): ")
+    if choice == "1":
+        print_slow("The figure leads you to a portal. You step through and find yourself back in the forest.")
+        print_slow("THE END.")
+        play_again()
+    elif choice == "2":
+        print_slow("You wander the void forever, lost and alone.")
+        print_slow("GAME OVER.")
+        play_again()
+    else:
+        print_slow("Invalid choice. Please try again.")
+        page_30()
+
+def page_31():
+    print_slow("You examine the portal closely and notice strange symbols.")
+    print_slow("1. Touch the symbols.")
+    print_slow("2. Step through the portal.")
+    choice = input("What do you do? (1 or 2): ")
+    if choice == "1":
+        print_slow("The symbols glow brightly, and you are transported to a futuristic city.")
+        print_slow("THE END.")
+        play_again()
+    elif choice == "2":
+        page_17()
+    else:
+        print_slow("Invalid choice. Please try again.")
+        page_31()
+
+def page_32():
+    print_slow("You examine the room and find a hidden compartment in the wall.")
+    print_slow("Inside is a key with a strange symbol.")
+    print_slow("1. Use the key on the golden door.")
+    print_slow("2. Keep the key and look for another exit.")
+    choice = input("What do you do? (1 or 2): ")
+    if choice == "1":
+        print_slow("The key unlocks the door, revealing a portal to your home.")
+        print_slow("THE END.")
+        play_again()
+    elif choice == "2":
+        print_slow("You search for another exit but find nothing. The room begins to collapse.")
+        print_slow("GAME OVER.")
+        play_again()
+    else:
+        print_slow("Invalid choice. Please try again.")
+        page_32()
+
+def page_33():
+    print_slow("You enter the secret door and find yourself in a library filled with ancient books.")
+    print_slow("1. Search for a book on escaping.")
+    print_slow("2. Leave the library and return to the hallway.")
+    choice = input("What do you do? (1 or 2): ")
+    if choice == "1":
+        print_slow("You find a book that teaches you how to open a portal. You escape!")
+        print_slow("THE END.")
+        play_again()
+    elif choice == "2":
+        page_2()
+    else:
+        print_slow("Invalid choice. Please try again.")
+        page_33()
+
+def page_34():
+    print_slow("You head toward the tower and find it guarded by a fierce dragon.")
+    print_slow("1. Try to sneak past the dragon.")
+    print_slow("2. Challenge the dragon to a battle.")
+    choice = input("What do you do? (1 or 2): ")
+    if choice == "1":
+        print_slow("You successfully sneak past the dragon and find a treasure inside the tower.")
+        print_slow("THE END.")
+        play_again()
+    elif choice == "2":
+        print_slow("The dragon defeats you in battle. You are no more.")
+        print_slow("GAME OVER.")
+        play_again()
+    else:
+        print_slow("Invalid choice. Please try again.")
+        page_34()
 
 def play_again():
     choice = input("Would you like to play again? (yes or no): ").lower()
