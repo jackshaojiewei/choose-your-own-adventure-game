@@ -9,17 +9,17 @@ Welcome to our **Choose Your Own Adventure** – an interactive text-based adven
 
 ## 📥 Installation
 ### Prerequisites
-- Python 3.x
+- Python 3.13
 
 ### Steps
 1. Clone the repository:
    ```sh
    git clone https://github.com/jackshaojiewei/choose-your-own-adventure-game.git
-   cd choose-your-own-adventure
+   cd choose-your-own-adventure-game
    ```
 2. Run the game:
    ```sh
-   python adventure.py
+   python new-code.py
    ```
 
 ## ✨ Features
